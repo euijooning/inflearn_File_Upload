@@ -1,10 +1,10 @@
-package inflearn.uploard;
+package inflearn.upload;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class UploardApplicationTests {
+class UploadApplicationTests {
 
     @Test
     void contextLoads() {
