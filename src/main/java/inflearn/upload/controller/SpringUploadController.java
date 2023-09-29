@@ -2,7 +2,6 @@ package inflearn.upload.controller;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -37,7 +36,8 @@ public class SpringUploadController {
         log.info("multipartFile={}", file); // 로그를 통해 업로드된 파일 정보를 출력.
 
         if (!file.isEmpty()) { // 업로드된 파일이 비어있지 않은 경우
-            String fullPath = fileDir + file.getOriginalFilename(); // 파일을 저장할 전체 경로를 생성한다.
+//            String fullPath = fileDir + file.getOriginalFilename(); // 파일을 저장할 전체 경로를 생성한다.
+            String fullPath = fileDir + "/" + file.getOriginalFilename();
             log.info("파일 저장 fullPath={}", fullPath); // 파일 저장 경로를 로그로 출력.
             file.transferTo(new File(fullPath)); // 업로드된 파일을 해당 경로에 저장한다.
         }
