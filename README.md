@@ -8,6 +8,11 @@
 https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-mvc-2#curriculum
 
 ----
+### 블로그 정리본 링크(순차적으로 업로드됩니다.)
+🚀 **티스토리**
+https://codegradation.tistory.com/category/Java%2C%20SpringBoot%20%EC%B6%94%EA%B0%80%20%EA%B3%B5%EB%B6%80/%ED%8C%8C%EC%9D%BC%20%EC%97%85%EB%A1%9C%EB%93%9C
+
+----
 ### 진행 순서
 🔎 서블릿과 파일 업로드 <br>
 🔎 스프링과 파일 업로드 <br>
